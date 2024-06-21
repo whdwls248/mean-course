@@ -9,6 +9,7 @@
             id="" 
             ngModel
             required
+            placeholder="Title"
             #title="ngModel">
             @if (title.invalid) {
                 <mat-error>Title invalid</mat-error>
@@ -22,6 +23,7 @@
             id="" 
             ngModel
             required
+            placeholder="Content"
             #content="ngModel"></textarea>
             @if (content.invalid) {
                 <mat-error>Content invalid</mat-error>

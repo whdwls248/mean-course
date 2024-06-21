@@ -14,9 +14,5 @@ import { Post } from './post/post.model';
     imports: [RouterOutlet, PostCreateComponent, HeaderComponent, PostListComponent, FormsModule]
 })
 export class AppComponent {
-  storedPosts: Post [] = [];
 
-  onPostAdded(post: any) {
-    this.storedPosts.push(post);
-  }
 }
